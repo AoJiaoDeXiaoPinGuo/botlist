@@ -1,0 +1,2 @@
+# botlist
+first botlist
