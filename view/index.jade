@@ -1,0 +1,303 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+		title botlist
+		link(href="../src/css/bootstrap.min.css" rel="stylesheet")
+		link(href="../src/index.css" rel="stylesheet")
+	body
+		// 头部导航
+		nav.navbar.navbar-default
+			.container
+				.navbar-header
+					button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#app-navbar-collapse")
+						span.sr-only Toggle Navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href="###")
+						img(src="../src/img/botlist-logo.svg")
+				// 主体导航栏
+				.collsapse.navbar-collapse#app-navbar-collapse
+					//导航栏左边
+					ul.nav.navbar-nav
+						li
+							a Articles
+						li
+							a Create a Bot
+						li
+							a Submit a Bot
+					// 导航栏右边
+					ul.nav.navbar-nav.navbar-right
+						li
+							a Browse
+						li
+							a Login
+						li
+							a Register
+		// 中间搜索框
+		#hero
+			.container
+				.row
+					h2 An App Store For Bots
+					img.platform-list(src="../src/img/platform-list.svg",alt="platform-logos")
+					// 搜素
+					form.col-md-6.col-md-offset-3(role="search")
+						.form-group
+							input.form-control.col-xs-8(type="search" placeholder="These aren‘t the droids we're looking for.")
+							bttton.btn.btn-custom.col-xs-3(type="button") SEARCH
+		//内容主体部分
+
+		#mainpart
+			.container
+				.row
+					.col-xs-2
+						ul.list-unstyled
+							li PLATFORMS
+							li
+								a(href="#") Android
+							li
+								a(href="#") Email
+							li
+								a(href="#") Facebook Messenger
+							li
+								a(href="#") iPhone
+							li
+								a(href="#") Kik
+							li
+								a(href="#") Slack
+							li
+								a(href="#") SMS
+							li
+								a(href="#") Telegram
+							li
+								a(href="#") Web
+						ul.list-unstyled
+							li CATEGORIES
+							li
+								a(href="#") Build
+							li
+								a(href="#") Analytics
+							li
+								a(href="#") Communication
+							li
+								a(href="#") Customer Support
+							li
+								a(href="#") Design
+							li
+								a(href="#") Developer Tools
+							li
+								a(href="#") File Management
+							li
+								a(href="#") Health
+							li
+								a(href="#") HR
+							li
+								a(href="#") Marketing
+							li
+								a(href="#") Office Management
+							li
+								a(href="#") Payments
+							li
+								a(href="#") Personal
+							li
+								a(href="#") Perductivity
+							li
+								a(href="#") Security
+							li
+								a(href="#") Social&Fun
+							li
+								a(href="#") Task Management
+							li
+								a(href="#") Travel
+					.col-lg-10.col-xs-12
+						.maintitle FEATURED BOTS
+						ul.row.list-unstyled.list-row
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/82l8Mccx.png")
+										.col-sm-8.pad-left-clear
+											h2 Chatfuel
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+												img(src="../src/img/telegram-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/4.57.02.png")
+										.col-sm-8.pad-left-clear
+											h2 botgig
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+												img(src="../src/img/3d-AkYCs_400x400.png")
+												img(src="../src/img/slack-icon.svg")
+												img(src="../src/img/web-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/f91d2de0-d18d-4c89-a110-44b8ccca1a59.png")
+										.col-sm-8.pad-left-clear
+											h2 Smooch for Messenger
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/de14ac15-b8b6-4282-9dde-429a6ecdc0b0.png")
+										.col-sm-8.pad-left-clear
+											h2 Botlytics
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/web-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/1EyAE_qN_400x400.png")
+										.col-sm-8.pad-left-clear
+											h2 Messenger Platform
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/7248d316e53acca9a9.gif")
+										.col-sm-8.pad-left-clear
+											h2 Bot Platform 2.0
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/telegram-icon.svg")
+						.maintitle NEW BOTS
+						ul.row.list-unstyled.list-row
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/03vVct0C_400x400.jpg")
+										.col-sm-8.pad-left-clear
+											h2 And Chil
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+												img(src="../src/img/telegram-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/13164444_852057241588275_2181376409250587033_n.png")
+										.col-sm-8.pad-left-clear
+											h2 Kitbot
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+												img(src="../src/img/3d-AkYCs_400x400.png")
+												img(src="../src/img/slack-icon.svg")
+												img(src="../src/img/web-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/survey_bot_orange_150-1b7ac479cfb2313bb6a7376d8336f5d66c42f5265a44268146a0e50bd001d5b6.png")
+										.col-sm-8.pad-left-clear
+											h2 Surveybot
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/uM61E1fk.jpg")
+										.col-sm-8.pad-left-clear
+											h2 Botlytics
+											p.category Air Meekan
+											p.platforms
+												img(src="../src/img/web-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/2b8b3233-1812-4c2f-9ddd-e336f2325652.png")
+										.col-sm-8.pad-left-clear
+											h2 Messenger Platform
+											p.category Emojify
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/20571250386_71941049554e60f94db8_512.png")
+										.col-sm-8.pad-left-clear
+											h2 Bot Platform 2.0
+											p.category Unsplash
+											p.platforms
+												img(src="../src/img/telegram-icon.svg")
+						.maintitle UPCOMMING
+						ul.row.list-unstyled.list-row
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/Icon-167.png")
+										.col-sm-8.pad-left-clear
+											h2 Troops
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+												img(src="../src/img/telegram-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/Baxter.png")
+										.col-sm-8.pad-left-clear
+											h2 Baxter
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/slack-icon.svg")
+							li.col-sm-4.col-xs-12
+								.bot
+									.row.row-bot
+										.col-sm-4.col-xs-4
+											img.img-rounded.img-responsive(src="../src/img/Screen Shot 2016-04-18 at 10.06.27.png")
+										.col-sm-8.pad-left-clear
+											h2 Cache
+											p.category Build A Bot
+											p.platforms
+												img(src="../src/img/messenger-icon1.svg")
+		//尾部
+		.end
+			.container
+				.h3 As Seen On
+				hr
+				ul.row.list-unstyled
+					li.col-sm-3.col-xs-6
+						img.img-responsive(src="../src/img/techcrunch.svg")
+					li.col-sm-3.col-xs-6
+						img.img-responsive(src="../src/img/tnw.svg")
+					li.col-sm-3.col-xs-6
+						img.img-responsive(src="../src/img/digital-trends.svg")
+					li.col-sm-3.col-xs-6
+						img.img-responsive(src="../src/img/engadget.svg")
+				hr
+				.row#special
+					.col-sm-6 cBotList 2016,A Marketing StackLed Company
+					.col-sm-6.pull-right.text-right buil by:
+						a(href="#") @bentossell,
+						a(href="#") @sethlouey,
+						a(href="#") @munashariqbal
+		script(src="../src/index.js")
+		script(src="http://cdn.bootcss.com/jquery/2.0.0/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" )
